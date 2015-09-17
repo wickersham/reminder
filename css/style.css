@@ -1,0 +1,66 @@
+@font-face {
+  font-family: MyScriptFont;
+  src: local("MyScriptFont"),
+       local("MyScriptFont"),
+       url(MyScriptFont.ttf);
+}
+
+
+body {
+    background: dimgray;
+    font-family: "MyScriptFont", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+}
+
+#remindme{
+    display: none;
+    font-family: sans-serif;
+    margin: 1px;
+}
+
+#reminders {
+    display: none;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+#settings {
+    display: none;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+#clock {
+    font: MyScriptFont sans-serif;
+    font-size: 72px;
+    background-color: dimgray;
+    padding: 5px;
+    color: lightsteelblue;
+    float: left;
+    margin: 5px;
+}
+
+.tab-panels ul li {
+    list-style-type: none;
+    display: inherit;
+    background: #999;
+    margin-left: 130px;
+    padding: 3px 5px;
+    border-radius: 0 10px 10px 0;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+.tab-panels ul li:hover {
+    color: #fff;
+    background: #666;
+}
+
+.tab-panels ul li.active {
+    color: #fff;
+    background: #666;
+}
+
+

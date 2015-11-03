@@ -19,6 +19,31 @@
 
 
 
+
+var app = angular.module("ngremind", []);
+
+app.controller("todoController", function($scope) {
+$scope.reminders=[];
+$scope.description=""; 
+ $scope.addTodo = function() {
+    var reminder = {
+        description: $scope.description,
+        minutes: $scope.howlong,
+           
+    };
+
+     $scope.reminders.push(reminder);
+ };
+    
+
+    
+    $scope.removeTodo = function(index) {
+        $scope.reminders.splice(index, 1)
+    }; 
+    
+}); 
+  
+
 //       http://codepen.io/anon/pen/mJyQez
 //
 //});

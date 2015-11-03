@@ -1,26 +1,26 @@
 @font-face {
   font-family: MyScriptFont;
-  src: local("MyScriptFont"),
-       local("MyScriptFont"),
-       url(MyScriptFont.ttf);
+  src: local("OptimusPrinceps"),
+       local("OptimusPrinceps"),
+       url(OptimusPrinceps.ttf);
 }
 
 
 body {
     background: dimgray;
-    font-family: "MyScriptFont", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    color: #333;
+    font-family: "OptimusPrinceps", Helvetica, Arial, sans-serif,;
+    font-size: 18px;
+    color: aliceblue;
 }
 
 #remindme{
-    display: none;
+/*    display: none;*/
     font-family: sans-serif;
     margin: 1px;
 }
 
 #reminders {
-    display: none;
+/*    display: none;*/
     font-family: sans-serif;
     color: aliceblue;
 }
